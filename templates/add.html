@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма входа</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h2 class="mt-5">Добавление планеты</h2>
+  <form action="/add" method="post">
+    <div class="mb-3">
+      <label for="name" class="form-label">Название планеты:</label>
+      <input type="text" class="form-control" id="name" name="name">
+    </div>
+    <div class="mb-3">
+        <label for="distance_from_sun" class="form-label">Дистанция до солнца:</label>
+        <input type="text" class="form-control" id="distance_from_sun" name="distance_from_sun">
+      </div>
+      <div class="mb-3">
+        <label for="diameter" class="form-label">Диаметр:</label>
+        <input type="text" class="form-control" id="diameter" name="diameter">
+      </div>
+      <div class="mb-3">
+        <label for="mass" class="form-label">Масса:</label>
+        <input type="text" class="form-control" id="mass" name="mass">
+      </div>
+      <div class="mb-3">
+        <label for="atmosphere_composition" class="form-label">Состав атмосферы:</label>
+        <input type="text" class="form-control" id="atmosphere_composition" name="atmosphere_composition">
+      </div>
+      <div class="mb-3">
+        <label for="unique_features" class="form-label">Уникальные особенности:</label>
+        <input type="text" class="form-control" id="unique_features" name="unique_features">
+      </div>
+      <div class="mb-3">
+        <label for="geological_activity" class="form-label">Геологическая активность:</label>
+        <input type="text" class="form-control" id="geological_activity" name="geological_activity">
+      </div>
+      <div class="mb-3">
+        <label for="satellites" class="form-label">Спутники:</label>
+        <input type="text" class="form-control" id="satellites" name="satellites">
+      </div>
+      <div class="mb-3">
+        <label for="limate_and_weather" class="form-label">Климат и погода:</label>
+        <input type="text" class="form-control" id="limate_and_weather" name="limate_and_weather">
+      </div> 
+    <button type="submit" class="btn btn-primary">Добавить планету</button>
+    <a href="/" class="btn btn-light">Назад к списку планет</a>
+  </form>
+</div>
+</body>
+</html>

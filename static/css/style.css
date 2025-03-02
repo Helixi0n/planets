@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../img/background.gif');
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	color: white;
+}
+
+.list-group-item,
+a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Прозрачный черный цвет */
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.1);
+	/* Прозрачный белый цвет фона карточки */
+	border: none;
+	/* Убираем границу карточки */
+	color: white;
+}
